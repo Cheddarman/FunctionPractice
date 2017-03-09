@@ -55,7 +55,7 @@ function rovarspraket(phrase){
     var vowel = ["a","e","i","o","u"]
     for(var i = 0; i < phrase.length; i ++){
 
-    	if (vowel.indexOf(phrase.charAt(i) == -1)){
+    	if (vowel.indexOf(phrase.charAt(i)) == -1){
     		newStr += phrase.charAt(i) + "o" + phrase.charAt(i)
  	    	} else {
     		newStr += phrase.charAt(i)
